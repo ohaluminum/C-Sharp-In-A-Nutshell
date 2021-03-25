@@ -2,13 +2,14 @@
 
 namespace Program1
 {
-    public delegate int Transformer(int x);
+    // Generic delegate types
+    public delegate T Transformer<T>(T x);
 
     public delegate void ProgressReporter(int percentComplete);
 
     public class Util
     {
-        public static void Transform(int[] values, Transformer t)   // Method with delegate parameter.
+        public static void Transform<T>(T[] values, Transformer<T> t)   // Method with delegate parameter.
         {
             for (int i = 0; i < values.Length; i++)
             {
