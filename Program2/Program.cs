@@ -14,9 +14,19 @@ namespace Program2
 
             static int Div(int x, int y)
             {
-                if (y == 0) throw new DivideByZeroException();
+                int result = 0;
 
-                return x / y;
+                // Exception handle
+                try
+                {
+                    result =  x / y;
+                }
+                catch (DivideByZeroException)
+                {
+                    Console.WriteLine("DIVISION BY ZERO IS UNDEFINED.");
+                }
+
+                return result;
             }
             
             // ----------------------- LAMBDA EXPRESSIONS ---------------------------
@@ -65,6 +75,13 @@ namespace Program2
 
             Console.WriteLine();
 
+            foreach (Func<int, int, int> instance in delegateList2)
+            {
+                Console.WriteLine(instance(5, 0));
+            }
+
+            Console.WriteLine();
+
             // Definition:
             // Outer variables referenced by a lambda expression are called captured variables.
             // A lambda expression that captures variables is called a closure.
@@ -81,7 +98,6 @@ namespace Program2
             scalar = 10;        // Invoked value
             Console.WriteLine(multiplier(3));
             Console.WriteLine("The output is 30 instead of 6 because captured variables are evaluated when the delegate is actually invoked, not when the variables were captured.");
-
         }
     }
 }
