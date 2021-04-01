@@ -1,0 +1,16 @@
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\bin\Debug\net5.0\Program2.exe
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\bin\Debug\net5.0\Program2.deps.json
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\bin\Debug\net5.0\Program2.runtimeconfig.json
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\bin\Debug\net5.0\Program2.runtimeconfig.dev.json
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\bin\Debug\net5.0\Program2.dll
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\bin\Debug\net5.0\ref\Program2.dll
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\bin\Debug\net5.0\Program2.pdb
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\obj\Debug\net5.0\Program2.csprojAssemblyReference.cache
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\obj\Debug\net5.0\Program2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\obj\Debug\net5.0\Program2.AssemblyInfoInputs.cache
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\obj\Debug\net5.0\Program2.AssemblyInfo.cs
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\obj\Debug\net5.0\Program2.csproj.CoreCompileInputs.cache
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\obj\Debug\net5.0\Program2.dll
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\obj\Debug\net5.0\ref\Program2.dll
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\obj\Debug\net5.0\Program2.pdb
+D:\Program\CSharp\C-Sharp-In-A-Nutshell\Program2\obj\Debug\net5.0\Program2.genruntimeconfig.cache
