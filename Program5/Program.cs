@@ -12,7 +12,7 @@ namespace Program5
             // Some static methods
             Console.WriteLine(char.ToUpper('c', CultureInfo.InvariantCulture));    // Closely matches American culture.
             Console.WriteLine(char.ToUpper('c', CultureInfo.CurrentCulture));    // Based on settings from the my computer’s control panel.
-            
+
             Console.WriteLine(char.IsLetter('c'));    // True
             Console.WriteLine(char.IsDigit('c'));    // False
             Console.WriteLine(char.IsWhiteSpace('\t'));     // True
@@ -39,24 +39,20 @@ namespace Program5
             // Iterating strings: string implements IEnumerable<char> interface
             foreach (char c in "Hello, world!")
             {
-                Console.Write(c + " ");    
+                Console.Write(c + " ");
             }
 
             Console.WriteLine();
 
             // Manipulating strings: return a new string (string is immutable)
-            string s1 = "helloworld".Insert(5, ", ");    
+            string s1 = "helloworld".Insert(5, ", ");
             Console.WriteLine(s1);      // s1 = "hello, world"
 
-            string s2 = s1.Remove(5, 2);                 
+            string s2 = s1.Remove(5, 2);
             Console.WriteLine(s2);      // s2 = "helloworld"
 
             string s3 = s1.Replace(", ", " | ");
             Console.WriteLine(s3);
-
-
-
-
         }
     }
 }
